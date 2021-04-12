@@ -1,6 +1,6 @@
 {
-  "name": "zl-cli",
-  "version": "1.0.0",
+  "name": "zll-cli",
+  "version": "1.0.2",
   "description": "used to create a vue project.",
   "main": "index.js",
   "bin": {
@@ -26,9 +26,7 @@
     "commander": "^7.2.0",
     "fs-extra": "^9.1.0",
     "inquirer": "^8.0.0",
-    "ora": "^5.4.0"
-  },
-  "devDependencies": {
+    "ora": "^5.4.0",
     "download-git-repo": "^3.0.2"
   }
 }

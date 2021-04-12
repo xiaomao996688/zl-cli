@@ -3,7 +3,7 @@ used to create a vue project.
 
 ## Usage
 ```js
-npm i -g zl-cli 
+npm i -g zll-cli 
 
 ```
 - 创建基于webpack可配置template
