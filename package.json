@@ -4,7 +4,7 @@
   "description": "used to create a vue project.",
   "main": "index.js",
   "bin": {
-    "zl": "/bin/cli.js"
+    "zl": "./bin/www"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,14 @@
   },
   "homepage": "https://github.com/xiaomao996688/zl-cli#readme",
   "dependencies": {
-    "commander": "^7.2.0"
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  },
+  "devDependencies": {
+    "download-git-repo": "^3.0.2"
   }
 }
